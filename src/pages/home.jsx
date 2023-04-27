@@ -3,9 +3,9 @@ import "../styles/styles.css";
 function CoolBtn({content, disabled, route}){
   
   if (disabled) {
-    return <button className="coolshape homebtn disabled">{content}</button>
+    return <button className="coolbtn disabled">{content}</button>
   } else {
-    return <button ClassName= "coolshape homebtn">{content}</button>
+    return <button ClassName= "coolbtn ">{content}</button>
   }
 }
 function MenuBox(){
@@ -22,7 +22,7 @@ function TitleBox(){
   <div className="titlebox">
     <img 
       className="titleimg"
-      src= "https://cdn.glitch.global/ffbc945f-5008-4f16-b2ba-4679ba0655a6/35D6CCCD-4699-48A4-B449-2607783D056C.png?v=1682612634645"
+      src= "https://cdn.glitch.global/ffbc945f-5008-4f16-b2ba-4679ba0655a6/EF1C100B-11D1-40FC-92C5-D50D11AF7470.png?v=1682614610786"
       />
       <h1 className="title">mortemized!</h1>
     

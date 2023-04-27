@@ -72,19 +72,21 @@ video {
   align-items: center;
 }
 
-/* the cool shape used in a bunch of elements*/
-.coolshape {
+/* the cool home buttons */
+.coolbtn {
   border: none;
+  font-size: 5vmin;
   color: var(--black);
   background-color: var(--other);
-  border-top-right-radius: 
-  border-bottom-right-radius: 60%;
-}
-
-
-/*home button*/
-.homebtn {
+  border-top-right-radius: 15vmin;
+  border-bottom-right-radius: 15vmin;
   margin: 1vmin;
 width: 30vmax;
   height: 10vmin;
 }
+
+.disabled {
+  background-color: 
+}
+
+
