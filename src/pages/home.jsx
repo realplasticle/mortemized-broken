@@ -22,13 +22,18 @@ function TitleBox(){
     <img 
       src= "https://cdn.glitch.global/bf7de285-8738-4504-9358-6f1c68ee7254/2023_04_26_0ka_Kleki.png?v=1682533627908"
       />
-      
+      <h1 className="title">mortemized!</h1>
     
     </div>
   )
 }
 function  Menu(){
-  
+  return (
+    <div className = "menu">
+      <TitleBox />
+      <MenuBox />
+    </div>
+  )
 }
 
 
@@ -36,8 +41,6 @@ export default function Home() {
   
 
   return (
-    <>
-      
-    </>
+  <Menu />
   );
 }
