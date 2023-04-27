@@ -1,5 +1,9 @@
 /* a minimalist set of CSS resets */
-
+:root {
+  --back: #bc8f8f;
+  --black: #3a3939;
+  --yellow
+}
 /* default to border-box */
 html {
   box-sizing: border-box;
@@ -38,7 +42,8 @@ video {
   display: table;
 }
 .titleimg{
-  object-fit: cover;
+  width: 20%;
+  object-fit: contain;
   
   
 }
@@ -50,4 +55,4 @@ video {
 }
 
 .title {
-  font-size: 7vmin;
+  font-size: 10vmin;
