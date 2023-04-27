@@ -19,8 +19,9 @@ function MenuBox(){
 }
 function TitleBox(){
   return (
-  <div className="title">
+  <div className="titlebox">
     <img 
+      className="titleimg"
       src= "https://cdn.glitch.global/bf7de285-8738-4504-9358-6f1c68ee7254/2023_04_26_0ka_Kleki.png?v=1682533627908"
       />
       <h1 className="title">mortemized!</h1>

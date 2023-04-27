@@ -15,7 +15,7 @@ body {
   background-color: #bc8f8f;
   margin: 1rem;
   
-  font-family: Noto sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   line-height: 1.5;
 }
 
@@ -27,6 +27,8 @@ video {
 }
 
 .menu {
+  display: flex;
+  flex-direction: column;
   margin: auto;
     
 }
@@ -34,4 +36,18 @@ video {
   content: "";
   clear: both;
   display: table;
+}
+.titleimg{
+  width: 20%;
+  
+}
+.titlebox{
+ display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.title {
+  
 }
