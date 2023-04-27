@@ -2,10 +2,13 @@ import * as React from "react";
 function CoolBtn(props){
   let content = props.content;
   let disabled = props.disabled;
-  let 
-  return (
-    <button className="coolbtn">{content}</button>
-  );
+  let route = props.route;
+  
+  if (disabled) {
+    return <button className="coolbtn disabled">{content}</button>
+  } else {
+    return <button ClassName= "coolbtn">{content}</button>
+  }
 }
 function MenuBox(){
   return (
