@@ -2,7 +2,7 @@
 :root {
   --back: #bc8f8f;
   --black: #3a3939;
-  --yellow
+  --other: #d6b372;
 }
 /* default to border-box */
 html {
@@ -16,9 +16,9 @@ html {
 
 /* adjust typography defaults */
 body {
-  background-color: #bc8f8f;
+  background-color: var(--back);
   margin: 1rem;
-  
+  color: var(--black);
   font-family: 'Noto Sans', sans-serif;
   line-height: 1.5;
 }
@@ -56,3 +56,6 @@ video {
 
 .title {
   font-size: 10vmin;
+}
+
+.coolntn
