@@ -3,6 +3,7 @@
   --back: #bc8f8f;
   --black: #3a3939;
   --other: #d6b372;
+  --logo: #fcac69;
 }
 /* default to border-box */
 html {
@@ -30,6 +31,7 @@ video {
   max-width: 100%;
 }
 
+/*whole menu*/
 .menu {
   display: flex;
   flex-direction: column;
@@ -41,6 +43,9 @@ video {
   clear: both;
   display: table;
 }
+
+
+/*title*/
 .titleimg{
   width: 20%;
   object-fit: contain;
@@ -58,4 +63,25 @@ video {
   font-size: 10vmin;
 }
 
-.coolntn
+
+/*menu buttons*/
+.menubox{
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+/* the cool shape used in a bunch of elements*/
+.coolshape {
+  border: none;
+  color: var(--black);
+  background-color: var(--other);
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+
+/*home button*/
+.homebtn {
+
+}
