@@ -38,7 +38,8 @@ video {
   display: table;
 }
 .titleimg{
-  width: 20%;
+  object-fit: cover;
+  
   
 }
 .titlebox{
@@ -49,5 +50,4 @@ video {
 }
 
 .title {
-  
-}
+  font-size: 7vmin;
