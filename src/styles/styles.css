@@ -68,7 +68,8 @@ video {
 .menubox{
   display: flex;
   flex-direction: column;
-  align-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 
 /* the cool shape used in a bunch of elements*/
@@ -76,12 +77,14 @@ video {
   border: none;
   color: var(--black);
   background-color: var(--other);
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
+  border-top-right-radius: 
+  border-bottom-right-radius: 60%;
 }
 
 
 /*home button*/
 .homebtn {
-
+  margin: 1vmin;
+width: 30vmax;
+  height: 10vmin;
 }
