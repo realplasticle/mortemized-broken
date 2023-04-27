@@ -5,13 +5,13 @@ function CoolBtn({content, disabled, route}){
   if (disabled) {
     return <button className="coolbtn disabled">{content}</button>
   } else {
-    return <button ClassName= "coolbtn ">{content}</button>
+    return <button className= "coolbtn ">{content}</button>
   }
 }
 function MenuBox(){
   return (
     <div className="menubox">
- <CoolBtn content = "new island" disabled = {true} />
+ <CoolBtn content = "new island" disabled = {false} />
 <CoolBtn  content = "load island" disabled = {true}/>
 <CoolBtn content = "import island" disabled = {true}/>
     </div>
