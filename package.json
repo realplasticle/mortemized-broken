@@ -1,12 +1,15 @@
 {
   "name": "glitch-blank-react",
   "version": "0.0.2",
+  "homepage": "http://realplasticle.github.io/mortemized",
   "description": "A simple React app built with Vite and React.",
   "main": "server.js",
   "scripts": {
     "start": "vite",
     "build": "vite build",
     "serve": "vite preview"
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
