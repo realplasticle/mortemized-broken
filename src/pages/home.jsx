@@ -1,4 +1,5 @@
 import * as React from "react";
+import "/styles/styles.css";
 function CoolBtn({content, disabled, route}){
   
   if (disabled) {
