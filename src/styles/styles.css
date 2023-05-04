@@ -5,6 +5,11 @@
   --other: #d6b372;
   --logo: #fcac69;
   --disabled: #baabab;
+  --white: #eeeeee;
+  --title: 10vmin;
+  --body: 3vmin;
+  --label: 5vmin;
+  --unselected: #a87f74;
 }
 /* default to border-box */
 html {
@@ -12,7 +17,9 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -21,7 +28,7 @@ body {
   background-color: var(--back);
   margin: 1rem;
   color: var(--black);
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   line-height: 1.5;
 }
 
@@ -35,62 +42,3 @@ video {
 /*whole menu*/
 .menu {
   display: flex;
-  flex-direction: column;
-  margin: auto;
-    
-}
-.menu:after{
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
-/*title*/
-.titleimg{
-  width: 20%;
-  object-fit: contain;
-  
-  
-}
-.titlebox{
- display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-}
-
-.title {
-  font-size: 10vmin;
-}
-
-
-/*menu buttons*/
-.menubox{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-/* the cool home buttons */
-.coolbtn {
-  border: none;
-  font-size: 5vmin;
-  color: var(--black);
-  background-color: var(--other);
-  border-top-right-radius: 15vmin;
-  border-bottom-right-radius: 15vmin;
-  margin: 1vmin;
-width: 30vmax;
-  height: 10vmin;
-}
-.coolbtn:hover{
-  background-color: var(--logo);
-}
-
-.disabled {
-  background-color: var(--disabled);
-}
-
-
